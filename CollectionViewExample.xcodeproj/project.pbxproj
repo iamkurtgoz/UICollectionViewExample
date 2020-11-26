@@ -8,22 +8,48 @@
 
 /* Begin PBXBuildFile section */
 		877CC51B25685F13003EDBA2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877CC51A25685F13003EDBA2 /* AppDelegate.swift */; };
-		877CC51D25685F13003EDBA2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877CC51C25685F13003EDBA2 /* SceneDelegate.swift */; };
 		877CC51F25685F13003EDBA2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877CC51E25685F13003EDBA2 /* ViewController.swift */; };
 		877CC52225685F13003EDBA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 877CC52025685F13003EDBA2 /* Main.storyboard */; };
 		877CC52425685F14003EDBA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 877CC52325685F14003EDBA2 /* Assets.xcassets */; };
 		877CC52725685F14003EDBA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 877CC52525685F14003EDBA2 /* LaunchScreen.storyboard */; };
+		8785E990256EDAA1004E3024 /* InstaFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8785E98F256EDAA1004E3024 /* InstaFeedViewController.swift */; };
+		8785E996256EDB00004E3024 /* InstaFeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8785E994256EDB00004E3024 /* InstaFeedCell.swift */; };
+		8785E997256EDB00004E3024 /* InstaFeedCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8785E995256EDB00004E3024 /* InstaFeedCell.xib */; };
+		8785E9A3256EDD6C004E3024 /* UIButton+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8785E99E256EDD6C004E3024 /* UIButton+Extensions.swift */; };
+		8785E9A4256EDD6C004E3024 /* CornerUIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8785E99F256EDD6C004E3024 /* CornerUIImageView.swift */; };
+		8785E9A5256EDD6C004E3024 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8785E9A0256EDD6C004E3024 /* UIView+Extensions.swift */; };
+		8785E9A6256EDD6C004E3024 /* CornerUITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8785E9A1256EDD6C004E3024 /* CornerUITextField.swift */; };
+		8785E9A7256EDD6C004E3024 /* UITapGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8785E9A2256EDD6C004E3024 /* UITapGestureRecognizer.swift */; };
+		878AC928256D862E00B08EA7 /* NewCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878AC926256D862E00B08EA7 /* NewCollectionViewCell.swift */; };
+		878AC929256D862E00B08EA7 /* NewCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 878AC927256D862E00B08EA7 /* NewCollectionViewCell.xib */; };
+		878AC92C256D86A900B08EA7 /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878AC92B256D86A900B08EA7 /* NewViewController.swift */; };
+		8794CD4925691CF1009B3EE9 /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8794CD4725691CF1009B3EE9 /* CustomCollectionViewCell.swift */; };
+		8794CD4A25691CF1009B3EE9 /* CustomCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8794CD4825691CF1009B3EE9 /* CustomCollectionViewCell.xib */; };
+		8794CD4E25691FF3009B3EE9 /* ArticleItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8794CD4D25691FF3009B3EE9 /* ArticleItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		877CC51725685F13003EDBA2 /* CollectionViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollectionViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		877CC51A25685F13003EDBA2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		877CC51C25685F13003EDBA2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		877CC51E25685F13003EDBA2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		877CC52125685F13003EDBA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		877CC52325685F14003EDBA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		877CC52625685F14003EDBA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		877CC52825685F14003EDBA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8785E98F256EDAA1004E3024 /* InstaFeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstaFeedViewController.swift; sourceTree = "<group>"; };
+		8785E994256EDB00004E3024 /* InstaFeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstaFeedCell.swift; sourceTree = "<group>"; };
+		8785E995256EDB00004E3024 /* InstaFeedCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InstaFeedCell.xib; sourceTree = "<group>"; };
+		8785E99E256EDD6C004E3024 /* UIButton+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Extensions.swift"; sourceTree = "<group>"; };
+		8785E99F256EDD6C004E3024 /* CornerUIImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CornerUIImageView.swift; sourceTree = "<group>"; };
+		8785E9A0256EDD6C004E3024 /* UIView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		8785E9A1256EDD6C004E3024 /* CornerUITextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CornerUITextField.swift; sourceTree = "<group>"; };
+		8785E9A2256EDD6C004E3024 /* UITapGestureRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITapGestureRecognizer.swift; sourceTree = "<group>"; };
+		878AC926256D862E00B08EA7 /* NewCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewCollectionViewCell.swift; sourceTree = "<group>"; };
+		878AC927256D862E00B08EA7 /* NewCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewCollectionViewCell.xib; sourceTree = "<group>"; };
+		878AC92B256D86A900B08EA7 /* NewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
+		8794CD4725691CF1009B3EE9 /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
+		8794CD4825691CF1009B3EE9 /* CustomCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomCollectionViewCell.xib; sourceTree = "<group>"; };
+		8794CD4D25691FF3009B3EE9 /* ArticleItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +82,68 @@
 		877CC51925685F13003EDBA2 /* CollectionViewExample */ = {
 			isa = PBXGroup;
 			children = (
+				8785E99D256EDD61004E3024 /* Extensions */,
+				8785E98E256EDA91004E3024 /* InstaFeed */,
 				877CC51A25685F13003EDBA2 /* AppDelegate.swift */,
-				877CC51C25685F13003EDBA2 /* SceneDelegate.swift */,
 				877CC51E25685F13003EDBA2 /* ViewController.swift */,
 				877CC52025685F13003EDBA2 /* Main.storyboard */,
 				877CC52325685F14003EDBA2 /* Assets.xcassets */,
 				877CC52525685F14003EDBA2 /* LaunchScreen.storyboard */,
 				877CC52825685F14003EDBA2 /* Info.plist */,
+				878AC91F256D860400B08EA7 /* Cell1 */,
+				878AC91E256D85FB00B08EA7 /* Cell2 */,
+				8794CD4D25691FF3009B3EE9 /* ArticleItem.swift */,
+				878AC92B256D86A900B08EA7 /* NewViewController.swift */,
 			);
 			path = CollectionViewExample;
+			sourceTree = "<group>";
+		};
+		8785E98E256EDA91004E3024 /* InstaFeed */ = {
+			isa = PBXGroup;
+			children = (
+				8785E993256EDAE1004E3024 /* Cell */,
+				8785E98F256EDAA1004E3024 /* InstaFeedViewController.swift */,
+			);
+			path = InstaFeed;
+			sourceTree = "<group>";
+		};
+		8785E993256EDAE1004E3024 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				8785E994256EDB00004E3024 /* InstaFeedCell.swift */,
+				8785E995256EDB00004E3024 /* InstaFeedCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		8785E99D256EDD61004E3024 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8785E99F256EDD6C004E3024 /* CornerUIImageView.swift */,
+				8785E9A1256EDD6C004E3024 /* CornerUITextField.swift */,
+				8785E99E256EDD6C004E3024 /* UIButton+Extensions.swift */,
+				8785E9A2256EDD6C004E3024 /* UITapGestureRecognizer.swift */,
+				8785E9A0256EDD6C004E3024 /* UIView+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		878AC91E256D85FB00B08EA7 /* Cell2 */ = {
+			isa = PBXGroup;
+			children = (
+				878AC926256D862E00B08EA7 /* NewCollectionViewCell.swift */,
+				878AC927256D862E00B08EA7 /* NewCollectionViewCell.xib */,
+			);
+			path = Cell2;
+			sourceTree = "<group>";
+		};
+		878AC91F256D860400B08EA7 /* Cell1 */ = {
+			isa = PBXGroup;
+			children = (
+				8794CD4725691CF1009B3EE9 /* CustomCollectionViewCell.swift */,
+				8794CD4825691CF1009B3EE9 /* CustomCollectionViewCell.xib */,
+			);
+			path = Cell1;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,9 +203,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				878AC929256D862E00B08EA7 /* NewCollectionViewCell.xib in Resources */,
 				877CC52725685F14003EDBA2 /* LaunchScreen.storyboard in Resources */,
 				877CC52425685F14003EDBA2 /* Assets.xcassets in Resources */,
+				8785E997256EDB00004E3024 /* InstaFeedCell.xib in Resources */,
 				877CC52225685F13003EDBA2 /* Main.storyboard in Resources */,
+				8794CD4A25691CF1009B3EE9 /* CustomCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +220,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				877CC51F25685F13003EDBA2 /* ViewController.swift in Sources */,
+				8785E996256EDB00004E3024 /* InstaFeedCell.swift in Sources */,
+				8785E9A7256EDD6C004E3024 /* UITapGestureRecognizer.swift in Sources */,
+				8785E990256EDAA1004E3024 /* InstaFeedViewController.swift in Sources */,
 				877CC51B25685F13003EDBA2 /* AppDelegate.swift in Sources */,
-				877CC51D25685F13003EDBA2 /* SceneDelegate.swift in Sources */,
+				8785E9A3256EDD6C004E3024 /* UIButton+Extensions.swift in Sources */,
+				8794CD4925691CF1009B3EE9 /* CustomCollectionViewCell.swift in Sources */,
+				8785E9A6256EDD6C004E3024 /* CornerUITextField.swift in Sources */,
+				878AC92C256D86A900B08EA7 /* NewViewController.swift in Sources */,
+				878AC928256D862E00B08EA7 /* NewCollectionViewCell.swift in Sources */,
+				8794CD4E25691FF3009B3EE9 /* ArticleItem.swift in Sources */,
+				8785E9A4256EDD6C004E3024 /* CornerUIImageView.swift in Sources */,
+				8785E9A5256EDD6C004E3024 /* UIView+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +380,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = CollectionViewExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,6 +399,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = CollectionViewExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

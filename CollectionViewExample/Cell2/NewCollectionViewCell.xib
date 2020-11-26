@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="NewCollectionViewCell" id="gTV-IL-0wX" customClass="NewCollectionViewCell" customModule="CollectionViewExample" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="420" height="360"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="420" height="360"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Apple'da Kariyer" translatesAutoresizingMaskIntoConstraints="NO" id="gYF-SV-p9B">
+                        <rect key="frame" x="0.0" y="0.0" width="420" height="360"/>
+                    </imageView>
+                    <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="quA-9m-L1W">
+                        <rect key="frame" x="0.0" y="304" width="420" height="56"/>
+                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="Elz-gO-rkw">
+                            <rect key="frame" x="0.0" y="0.0" width="420" height="56"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            <subviews>
+                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="eUb-bT-2aa">
+                                    <rect key="frame" x="10" y="10" width="400" height="36"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TURKISHKIT TITLE" textAlignment="natural" lineBreakMode="characterWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1sM-gZ-zOD">
+                                            <rect key="frame" x="0.0" y="0.0" width="400" height="12"/>
+                                            <fontDescription key="fontDescription" type="system" weight="medium" pointSize="10"/>
+                                            <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <color key="highlightedColor" systemColor="secondaryLabelColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TURKISHKIT TITLE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PJt-Xc-5lh">
+                                            <rect key="frame" x="0.0" y="12" width="400" height="24"/>
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </stackView>
+                            </subviews>
+                            <constraints>
+                                <constraint firstItem="eUb-bT-2aa" firstAttribute="top" secondItem="Elz-gO-rkw" secondAttribute="top" constant="10" id="7HG-z1-A3q"/>
+                                <constraint firstAttribute="bottom" secondItem="eUb-bT-2aa" secondAttribute="bottom" constant="10" id="XDG-vN-hZd"/>
+                                <constraint firstItem="eUb-bT-2aa" firstAttribute="leading" secondItem="Elz-gO-rkw" secondAttribute="leading" constant="10" id="aG5-eY-e4e"/>
+                                <constraint firstAttribute="trailing" secondItem="eUb-bT-2aa" secondAttribute="trailing" constant="10" id="jBz-YB-YgS"/>
+                            </constraints>
+                        </view>
+                        <blurEffect style="regular"/>
+                    </visualEffectView>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="quA-9m-L1W" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="8uc-0C-iHj"/>
+                <constraint firstItem="gYF-SV-p9B" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="CU5-zx-wZK"/>
+                <constraint firstAttribute="bottom" secondItem="quA-9m-L1W" secondAttribute="bottom" id="Q1B-bx-YbI"/>
+                <constraint firstAttribute="bottom" secondItem="gYF-SV-p9B" secondAttribute="bottom" id="SS1-3V-lTa"/>
+                <constraint firstAttribute="trailing" secondItem="gYF-SV-p9B" secondAttribute="trailing" id="WTd-Dp-Vxs"/>
+                <constraint firstAttribute="trailing" secondItem="quA-9m-L1W" secondAttribute="trailing" id="drb-x3-bu5"/>
+                <constraint firstItem="gYF-SV-p9B" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="gc6-mS-egv"/>
+            </constraints>
+            <size key="customSize" width="397" height="360"/>
+            <connections>
+                <outlet property="imageHeader" destination="gYF-SV-p9B" id="FcV-yU-siW"/>
+                <outlet property="labelCaption" destination="1sM-gZ-zOD" id="ieP-Zn-qT9"/>
+                <outlet property="labelTitle" destination="PJt-Xc-5lh" id="ebq-PT-jMO"/>
+            </connections>
+            <point key="canvasLocation" x="227.536231884058" y="145.98214285714286"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="Apple'da Kariyer" width="1440" height="680"/>
+        <systemColor name="secondaryLabelColor">
+            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
